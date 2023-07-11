@@ -1,26 +1,24 @@
 <script>
 import NavigationBar from '../components/header/NavigationBar.vue';
+import AppFooter from '../components/footer/AppFooter.vue';
 
 export default {
-    name: 'MainLayout'
+    name: "MainLayout",
+    components: { AppFooter, NavigationBar }
 }
 </script>
 
 <template>
-    <NavigationBar></NavigationBar>
-    <div>ini adalah home page</div>
-    <header>
-        
-        <img alt="Vue logo" class="logo" src="../assets/logo.svg" width="125" height="125" />
-        
-        <div class="wrapper">
-            
+    <NavigationBar />
+
+    <section class="min-vh-100">
+        <div class="container text-center">
+            <p class="text-danger">Ini adalah home page</p>
+            <img alt="Vue logo" class="logo" src="../assets/logo.svg" width="235" height="235" />
         </div>
-    </header>
+    </section>
     
-    <main>
-        
-    </main>
+    <AppFooter />
 </template>
 
 <style scoped>

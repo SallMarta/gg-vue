@@ -1,12 +1,13 @@
-<script setup>
-import NavigationBar from './components/header/NavigationBar.vue';
-
-
+<script>
+export default {
+  name: 'App',
+}
 </script>
 
 <template>
-  
-  <router-view />
+  <section class="min-vh-100">
+    <router-view />
+  </section>
 </template>
 
 <style scoped>
