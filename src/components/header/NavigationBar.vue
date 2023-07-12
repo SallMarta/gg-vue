@@ -32,7 +32,7 @@ export default {
                             </ul>
                         </li> -->
                         <li class="nav-item">
-                            <a class="nav-link">Hubungi Kami</a>
+                            <a class="nav-link" href="#">Hubungi Kami</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
